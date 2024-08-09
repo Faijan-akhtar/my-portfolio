@@ -1,0 +1,264 @@
+.logo react{
+    color: rgb(0, 255, 255);
+  }
+  .react{
+    animation: rotate-logo 2s linear infinite;
+  }
+  
+  
+  
+  @keyframes rotate-logo {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .container{
+    max-width: 100%;
+    position:absolute;
+    z-index: 9999;
+  }
+  .bg-image{
+    width: 100%;
+    height: 320px;
+    background-image: url('../assets/dark-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  .intro p{
+    color: white;
+    display: inline;
+    background: none;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  
+  
+  
+  
+  .intro h1{
+    color: white;
+    display: inline;
+    background: none;
+    text-align: center;
+    
+    
+  
+  }
+  .intro{
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    font-size:30px;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   background: transparent;
+    align-items: center;
+   
+    
+  }
+  
+  .my-project-heading{
+    font-size: 40px;
+    color: aqua;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  
+  /* @ */
+  .project-heading h1{
+    color: aqua;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  
+  .info{
+    max-width: 1000px;
+    
+  }
+  .project-scale{
+   max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    
+  }  
+  .project-scale button{
+    color: white;
+    font-size: 20px;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+  }
+  button:hover{
+    background-color: aqua;
+  }
+  .project{
+    max-width:700px ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+     margin-bottom: 20px;
+  }
+  
+   .detail-project{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+   }
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  .flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    overflow: hidden;
+    margin-left: 20px;
+   
+    
+    
+  
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-image: linear-gradient(to right,rgb(77, 50, 118),rgb(154, 33, 75),rgb(138, 120, 207),rgb(78, 163, 185));
+  
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-card-back button{
+    background:transparent;
+    border:1px solid ;
+    color:white;
+    margin-top: 15px;
+    padding: 7px;
+    opacity: 0.3;
+    border-radius: 6px;
+  }
+  .flip-card-back  button:hover{
+    background-color: white;
+    color:black;
+    opacity: 0.3;
+  }
+  
+  /* about-css */
+  
+  
+  @media screen and (max-width:700px) {
+    
+      
+    
+    .project{
+      width:100%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 10px;
+      
+   
+      
+  
+    }
+    .intro p{
+      color: white;
+      display: inline;
+      background: none;
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    
+    
+    
+    
+    .intro h1{
+      color: white;
+      text-align: center;
+    
+      background: none;
+    
+      
+    
+    }
+    .intro{
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      font-size:24px;
+      padding-top: 3rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+     background: transparent;
+      align-items: center;
+     
+      
+    }
+  
+     
+   
+    
+    .bg-image{
+      height: 70vh;
+    }
+  }
+      

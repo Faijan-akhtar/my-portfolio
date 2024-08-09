@@ -1,0 +1,102 @@
+.nav{
+    max-width:100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    padding:2px;
+    position: sticky;
+    z-index: 999999;
+    top: 0;
+
+  }
+  .list{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    
+    
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    
+   
+    
+    
+    
+  
+  }
+   
+.icon{
+  color: white;
+  
+  margin-top: 7px;
+  display: none;
+}
+
+  a:Link{
+   text-decoration: none;
+   color: beige;
+  }
+  a{
+    color: white;
+  }
+  a:hover{
+    color: aqua;
+  }
+    
+  li{
+    list-style-type: none;
+    text-decoration: none;
+    
+  }
+  .name{
+    font-family: Montserrat, sans-serif;
+    letter-spacing: .02in;
+    font-weight: bolder;
+    margin-left: 10px;
+  }
+  .mobile-menu{
+    text-align: center;
+    display: none;
+
+  }
+  .desktop-menu{
+    display: none;
+  }
+  
+li{
+  padding: 10px;
+  
+
+}
+
+  
+ @media(max-width:450px){
+  .nav{
+    max-width: 100%;
+    position: sticky;
+    
+    padding: 6px;
+  }
+  .list a{
+    display: none;
+  }
+  .icon{
+    
+    display: block;
+  
+  }
+  .desktop-menu{
+    
+    position: sticky;
+    z-index: 99999;
+    top:45px;
+    display: block;
+  }
+ }
+  
+  
