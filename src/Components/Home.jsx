@@ -94,7 +94,7 @@ const stringToRender=[
     <div class="flip-card-back">
       <h1 style={{background:'transparent'}}>Quiz-App</h1>
       <p style={{background:'transparent'}}>Play and Good score</p>
-      <button>Detail</button>
+      <button><a href="https://faijan-todo-app.netlify.app">ToDo-App</a></button>
 
     </div>
   </div>
