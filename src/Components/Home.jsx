@@ -3,6 +3,7 @@ import reactLogo from '../assets/react.svg'
 import Dark from '../assets/dark.jpg'
 import Quiz from '../assets/quiz.jpg'
 import Food from '../assets/food.jpg'
+import ToDo from '../assets/todo.jpg'
 import {ReactTyped} from 'react-typed'
 import'../Components/Home.css'
 const Home = () => {
@@ -89,7 +90,7 @@ const stringToRender=[
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src={Quiz} alt="Avatar" style={{height:'150px',width:'200px'}}/>
+      <img src={ToDo} alt="Avatar" style={{height:'150px',width:'200px'}}/>
     </div>
     <div class="flip-card-back">
       <h1 style={{background:'transparent'}}>Quiz-App</h1>
