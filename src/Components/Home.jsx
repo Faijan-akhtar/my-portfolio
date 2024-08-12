@@ -3,7 +3,7 @@ import reactLogo from '../assets/react.svg'
 import Dark from '../assets/dark.jpg'
 import Quiz from '../assets/quiz.jpg'
 import Food from '../assets/food.jpg'
-import ToDo from '../assets/todo.jpg'
+import ToDo from '../assets/todo1.jpg'
 import {ReactTyped} from 'react-typed'
 import'../Components/Home.css'
 const Home = () => {
@@ -90,12 +90,12 @@ const stringToRender=[
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src={ToDo} alt="Avatar" style={{height:'150px',width:'200px'}}/>
+      <img src={ToDo} alt="Avatar" style={{height:'150px',width:'200px' }}/>
     </div>
     <div class="flip-card-back">
       <h1 style={{background:'transparent'}}>Quiz-App</h1>
       <p style={{background:'transparent'}}>Play and Good score</p>
-      <button><a href="https://faijan-todo-app.netlify.app">ToDo-App</a></button>
+      <button><a style={{background:'transparent'}} href="https://faijan-todo-app.netlify.app">ToDo-App</a></button>
 
     </div>
   </div>
