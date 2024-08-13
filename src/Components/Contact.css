@@ -1,6 +1,6 @@
 
 .contact-main{
-    height: 80vh;
+    height: 92vh;
     background-image: url('../assets/dark-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,6 +49,7 @@
 }
 input{
     width: 300px;
+    padding: 5px;
     background-color: white;
 
 
@@ -70,9 +71,10 @@ label{
 }
 .submit-btn{
     background-color: aqua;
-    margin-top: 30px;
+ 
     padding: 5px;
     width: 80px;
     border-radius: 6px;
+    margin: 0 auto;
     
 }
