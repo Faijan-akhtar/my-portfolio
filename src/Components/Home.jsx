@@ -93,7 +93,7 @@ const stringToRender=[
       <img src={ToDo} alt="Avatar" style={{height:'150px',width:'200px' }}/>
     </div>
     <div class="flip-card-back">
-      <h1 style={{background:'transparent'}}>Quiz-App</h1>
+      <h1 style={{background:'transparent'}}>ToDo-App</h1>
       <p style={{background:'transparent'}}>Play and Good score</p>
       <button><a style={{background:'transparent'}} href="https://faijan-todo-app.netlify.app">ToDo-App</a></button>
 
@@ -107,9 +107,9 @@ const stringToRender=[
       <img src={Quiz} alt="Avatar" style={{height:'150px',width:'200px'}}/>
     </div>
     <div class="flip-card-back">
-      <h1 style={{background:'transparent'}}>Quiz-App</h1>
-      <p style={{background:'transparent'}}>Play and Good score</p>
-      <button>Detail</button>
+      <h1 style={{background:'transparent', fontSize:'20px'}}>F-Movies-app</h1>
+      <p style={{background:'transparent' }}>Colour in eye</p>
+      <button><a style={{background:'transparent'}} href="https://f-movies-app.netlify.app">F-Movies-app</a></button>
 
     </div>
   </div>
