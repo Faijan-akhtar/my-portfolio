@@ -1,5 +1,5 @@
 import React from 'react'
-import movie from '../assets/F-movi.jpg'
+import moviespic from '../assets/F-movi.jpg'
 import reactLogo from '../assets/react.svg'
 import Dark from '../assets/dark.jpg'
 import Quiz from '../assets/quiz.jpg'
@@ -106,7 +106,7 @@ const stringToRender=[
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src={movie} alt="Avatar" style={{height:'150px',width:'200px'}}/>
+      <img src={movies-pic} alt="Avatar" style={{height:'150px',width:'200px'}}/>
     </div>
     <div class="flip-card-back">
       <h1 style={{background:'transparent', fontSize:'20px'}}>F-Movies-app</h1>
